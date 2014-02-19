@@ -18,7 +18,7 @@
 class Ethna_UrlHandler
 {
     /** @var    array   アクションマッピング */
-    protected $action_map = array(
+    public $action_map = array(
         /*
          * 'user'   => array(
          *  'user_login' => array(
